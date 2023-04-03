@@ -19,7 +19,7 @@ const drums =[
         img: `../assets/img/ludwig classic maple.webp`
     },
     {
-        name: `Mapex Mars Maple Fusion`,
+        name: `Mapex Mars Fusion`,
         price: 1000,
         id: 4,
         img: `../assets/img/Mapex Mars Maple Fusion.webp`

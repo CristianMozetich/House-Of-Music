@@ -8,7 +8,7 @@ function renderDrums (){
                             <div class="card-body">
                             <h5 class="card-title">${drums.name} </h5>
                             <p class="card-text">€${drums.price} </p>
-                            <a href="#" class="btn btn-primary">Add to cart</a>
+                            <button class="btn btn-primary" onclick="addToCart(${drums.id})">Add to cart(+)</button>
                         </div>
                     </div>`
         
