@@ -2,14 +2,20 @@
 let getCart = JSON.parse (localStorage.getItem("cart")) || [];
 
 function addToCart(id){
-    let cart = getCart;
-    let drums = findDrums(id);
+    const cart = getCart;
+    const drums = findDrums(id);
     cart.push(drums);
-    localStorage.setItem ("cart", JSON.stringify(drums));
+    localStorage.setItem ("cart", JSON.stringify(cart));
+    renderCountCart();
+    renderCart();
 }
 
 function findDrums (id){
-    let drums = getDrumsLs ();
+    let drums = getDrumsLs();
 
     return drums.find((element) => element.id === id);
+}
+
+function renderCountCart(){
+    return getCart.length
 }
