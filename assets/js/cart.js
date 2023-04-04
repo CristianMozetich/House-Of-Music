@@ -1,8 +1,10 @@
+function getCart(){
+    return JSON.parse (localStorage.getItem("cart")) || [];
+}
 
-let getCart = JSON.parse (localStorage.getItem("cart")) || [];
 
 function addToCart(id){
-    const cart = getCart;
+    const cart = getCart();
     const drums = findDrums(id);
     cart.push(drums);
     localStorage.setItem ("cart", JSON.stringify(cart));
@@ -17,5 +19,5 @@ function findDrums (id){
 }
 
 function renderCountCart(){
-    return getCart.length
+    return getCart().length
 }
