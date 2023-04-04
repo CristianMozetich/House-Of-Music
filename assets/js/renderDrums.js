@@ -7,8 +7,8 @@ function renderDrums (){
                             <img src="${drums.img}" class="card-img-top" alt="drums">
                             <div class="card-body">
                             <h5 class="card-title">${drums.name} </h5>
-                            <p class="card-text">€${drums.price} </p>
-                            <button class="btn btn-primary" onclick="addToCart(${drums.id})">Add to cart(+)</button>
+                            <p class="card-text">€${drums.price}</p>
+                            <button class="btn btn-primary" onclick="addToCart(${drums.id})">Add to cart</button>
                         </div>
                     </div>`
         
