@@ -6,7 +6,7 @@ const bass = [
         img: "../assets/img/Epiphone EB-3 Bass, Ebony.jpeg",
     },
     {
-        name: "Epiphone EB-3 BASS",
+        name: "Epiphone EB-3 BASS, Cherry",
         price: 500,
         id: 41,
         img: "../assets/img/Epiphone EB-3 BASS.jpeg",
