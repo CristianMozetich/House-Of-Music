@@ -8,7 +8,7 @@ function renderBass(){
                         <div class="card-body">
                             <h5 class="card-title">${bass.name} </h5>
                             <p class="card-text">€${bass.price}</p>
-                            <button class="btn btn-primary" onclick="addToCart(${bass.id})">Add to cart</button>
+                            <button class="btn btn-primary" onclick="bassAdd(${bass.id})">Add to cart</button>
                         </div>
                     </div>`
     });
