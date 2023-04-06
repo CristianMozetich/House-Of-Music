@@ -55,7 +55,7 @@ const drums =[
         img: `../assets/img/DW 9000 Series Double Bass Drum Pedal.webp`
     },
     {
-        name: `Vic Firth Classic 5b`,
+        name: `Vic Firth Classic 5B`,
         price: 15,
         id: 10,
         img: `../assets/img/Vic Firth American Classic Hickory Drum Sticks Wood 8D.webp`
