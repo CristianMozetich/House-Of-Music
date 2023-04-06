@@ -3,7 +3,7 @@ const drums =[
         name: `DW Collector's Series`,
         price: 3500,
         id: 1,
-        img: `/assets/img/DW Collector's Series.jpg`
+        img: `../assets/img/DW Collector's Series.jpg`
 
     },
     {
