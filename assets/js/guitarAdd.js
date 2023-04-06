@@ -1,7 +1,13 @@
 function guitarAdd(id){
     const cart = getCart();
-    const guitars = findGuitar(id);
-    cart.push(guitars);
+    if(inCart(id)){
+        let pos = cart.findIndex(item => item.id === id);
+        cart[pos].cantidad += 1;
+    } else{
+        const guitars = findGuitar(id);
+        guitars.cantidad = 1;
+        cart.push(guitars);
+    }
     localStorage.setItem ("cart", JSON.stringify(cart));
     renderCountCart();
     renderCart();

@@ -2,18 +2,36 @@ function cartPage(){
     let cart = getCart();
     let salida = "";
 
-    cart.forEach((cart) => {
-        salida += `<div class="card text-center m-3" style="width: 18rem;">
-                        <img src="${cart.img}" class="card-img-top" alt="drums">
-                        <div class="card-body">
-                            <h5 class="card-title">${cart.name}</h5>
-                            <p class="card-text">€${cart.price}</p>
-                            <button class="btn btn-primary" onclick="drumsAdd(${cart.id})">Add to cart</button>
-                        </div>
-                    </div>`
-});
 
-    document.getElementById("cart").innerHTML = salida;
+    if (totalProd() > 0){
+        salida += `<table class="table">`;
+
+        salida +=   `<tr>
+                        <td>&nbsp</td>
+                        <td>&nbsp</td>
+                        <td>&nbsp</td>
+                        <td>&nbsp</td>
+                        <td><button class="btn btn-danger" onclick="removeAll()">Remove All</button></td>
+                    </tr>`
+
+    cart.forEach((cart) => {
+            salida +=
+                        `<tr>
+                            <td><img src="${cart.img}" width="150" class="img-fluid" alt="${cart.name}"></td>
+                            <td>${cart.name}</td>
+                            <td>€${cart.price} x ${cart.cantidad}</td>
+                            <td>${cart.cantidad * cart.price}</td>
+                            <td><button class="btn btn-danger" onclick="removeProd(${cart.id})">Remove Prod</button></td>
+                        </tr>`
+    });
+} else{
+    salida =    `<div class="alert alert-primary text-center" role="alert">
+                 You cart is empty
+                </div>`
 }
+
+    document.getElementById("cartProd").innerHTML = salida;
+}
+
 
 cartPage();
