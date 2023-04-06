@@ -28,3 +28,19 @@ function inCart(id){
 
     return cart.some((element)=> element.id === id);
 }
+
+function removeAll(){
+    localStorage.removeItem("cart");
+    cartPage();
+    renderCart();
+}
+
+function removeProd(id){
+    let cart = getCart();
+
+    let products = cart.filter(item => item.id !== id);
+
+    localStorage.setItem("cart", JSON.stringify(products));
+    cartPage();
+    renderCart();
+}
