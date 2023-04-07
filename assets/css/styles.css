@@ -17,6 +17,10 @@
 
 .container {
   margin-top: 80px;
+  overflow: hidden;
+}
+.container .main_box {
+  margin: 5px;
 }
 .container .main_box .card {
   border-radius: 10px;
