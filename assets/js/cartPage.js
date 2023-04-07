@@ -24,9 +24,16 @@ function cartPage(){
                             <td><button class="btn btn-danger" onclick="removeProd(${cart.id})">Remove Prod</button></td>
                         </tr>`
     });
+            salida +=   `<tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>€${totalCost()}</td>
+                            <td><button class="btn btn-danger" onclick="pay()">Pay</button></td>
+                        </tr>`
 } else{
     salida =    `<div class="alert alert-primary text-center" role="alert">
-                 You cart is empty
+                 Your cart is empty
                 </div>`
 }
 
@@ -35,3 +42,12 @@ function cartPage(){
 
 
 cartPage();
+
+function pay(){
+    Swal.fire({
+        icon: 'success',
+        title: 'Your pay has been succes',
+        text: 'Thanks for shopping!',
+      })
+    removeAll();
+}

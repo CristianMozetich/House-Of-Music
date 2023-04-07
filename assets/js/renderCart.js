@@ -6,34 +6,34 @@ function renderCart(){
                 </a>`
 
     document.getElementById("cart").innerHTML = salida;
-}
+};
 renderCart();
 
 function getCart(){
     return JSON.parse (localStorage.getItem("cart")) || [];
-}
+};
 
 function renderCountCart(){
     return getCart().length
-}
+};
 
 function totalProd(){
     let products = getCart();
 
     return products.reduce((total, item)=> total += item.cantidad, 0)
-}
+};
 
 function inCart(id){
     let cart = getCart();
 
     return cart.some((element)=> element.id === id);
-}
+};
 
 function removeAll(){
     localStorage.removeItem("cart");
     cartPage();
     renderCart();
-}
+};
 
 function removeProd(id){
     let cart = getCart();
@@ -43,4 +43,10 @@ function removeProd(id){
     localStorage.setItem("cart", JSON.stringify(products));
     cartPage();
     renderCart();
+};
+
+function totalCost(){
+    let cart = getCart();
+
+    return cart.reduce((total, item)=> total += item.cantidad * item.price, 0)
 }
