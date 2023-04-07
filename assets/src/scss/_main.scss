@@ -1,3 +1,18 @@
 .container{
     margin-top: 80px;
+    .main_box{
+        .card{
+            border-radius: 10px;
+            width: 500px;
+            &:hover{
+                transition: 0.5s;
+                transform: scale(1.06);
+            }
+            img{
+                height: 350px;
+                border-radius: 10px;
+                margin: 5px;
+            }
+        }
+    }
 }

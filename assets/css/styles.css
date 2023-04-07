@@ -18,6 +18,19 @@
 .container {
   margin-top: 80px;
 }
+.container .main_box .card {
+  border-radius: 10px;
+  width: 500px;
+}
+.container .main_box .card:hover {
+  transition: 0.5s;
+  transform: scale(1.06);
+}
+.container .main_box .card img {
+  height: 350px;
+  border-radius: 10px;
+  margin: 5px;
+}
 
 .footer {
   width: 100%;
