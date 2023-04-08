@@ -12,3 +12,6 @@ fetch ("https://jsonplaceholder.typicode.com/albums")
     document.getElementById("respuesta").innerHTML = salida;
     });
 
+
+
+
