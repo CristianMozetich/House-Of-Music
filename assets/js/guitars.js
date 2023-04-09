@@ -89,6 +89,60 @@ const guitars = [
         id: 39,
         img: "../assets/img/Taylor GS Mini Mahogany.jpeg",
     },
+    {
+        name: "Boss CH1 Super Chorus",
+        price: 110,
+        id: 50,
+        img: "../assets/img/Boss CH1 Super Chorus.jpeg",
+    },
+    {
+        name: "Boss DM2W Analog Delay",
+        price: 200,
+        id: 51,
+        img: "../assets/img/Boss DM2W Analog Delay.jpeg",
+    },
+    {
+        name: "Boss OD3 Overdrive",
+        price: 120,
+        id: 52,
+        img: "../assets/img/Boss OD3 Overdrive.jpeg",
+    },
+    {
+        name: "Boss CS3 Compression Sustainer",
+        price: 110,
+        id: 53,
+        img: "../assets/img/Boss CS3 Compression Sustainer.jpeg",
+    },
+    {
+        name: "Gibson Hummingbird Studio Walnut Acoustic Guitar",
+        price: 1900,
+        id: 54,
+        img: "../assets/img/Gibson Hummingbird Studio Walnut Acoustic Guitar.jpeg",
+    },
+    {
+        name: "Taylor 324ce Builder's Edition",
+        price: 2900,
+        id: 55,
+        img: "../assets/img/Taylor 324ce Builder's Edition.jpeg"
+    },
+    {
+        name: "Taylor 724ce KOA GA Cutaway",
+        price: 3100,
+        id: 56,
+        img: "../assets/img/Taylor 724ce KOA GA Cutaway.jpeg",
+    },
+    {
+        name: "Taylor Builder's Edition 614ce WHB",
+        price: 4000,
+        id: 57,
+        img: "../assets/img/Taylor Builder's Edition 614ce WHB.jpeg",
+    },
+    {
+        name: "Gretsch G5422G-12 Electromatic Hollow Body Double Cut 12 String",
+        price: 1000,
+        id: 58,
+        img: "../assets/img/Gretsch G5422G-12 Electromatic Hollow Body Double Cut 12 String.jpeg",
+    },
 ];
 
 function setGuitarsLs(){
