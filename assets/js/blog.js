@@ -14,6 +14,15 @@ const blog = [
         There's room for everyone.
         In conclusion, the impact of technology on music and musical instruments is undeniable. It's a force that has both liberated and complicated our musical landscape. But let's not be afraid of it, my friends. Let's harness it, let's use it to create music that's never been heard before. As Hunter S. Thompson once said, "Buy the ticket, take the ride."`,
     },
+    {
+        img: "../assets/img/blogimg2.jpeg",
+        title: "How to Get Started with Music Production on a Budget",
+        texto: `Music production is an art form that has been enjoyed by many people for centuries. In recent years, music production has become more accessible to anyone with a computer and a dream. However, the cost of entry into the world of music production can be high, with expensive software, hardware, and equipment being required. But fear not, because with a little research and some clever spending, you can get started with music production on a budget. Here are some tips on how to get started with music production on a budget.
+        There are many music production software programs available on the market, ranging from free to thousands of dollars. When you're just starting out, it's best to choose a software program that fits your budget. There are many free or low-cost options available, such as Logic, GarageBand, and Ableton Lite. These programs offer a variety of features that will allow you to create music without breaking the bank. Once you've gained more experience and have a better understanding of your needs, you can upgrade to a more expensive software program.
+        When it comes to music production, there are a few essential pieces of equipment that you'll need. These include a computer, an Interface and software, headphones, and a MIDI controller or instrument. If you don't have a computer, you can look into purchasing a refurbished or used one. When it comes to purchasing a DAW (digital audio workstation), there are many affordable options available, such as FL Studio, Ableton Live, and Logic Pro X, as mentioned. Headphones are essential for monitoring your audio, and you can find a good pair for a reasonable price. A MIDI controller is not necessary, but it can be helpful for creating and editing music.
+        When creating music, you'll need access to a variety of sounds and loops. While there are many sample packs and loops available for purchase, there are also many free options available online. Websites like Splice, Free Sound, and Loopmasters offer free samples and loops that you can use in your productions. You can also create your own samples by recording sounds around your home.
+        One of the most important aspects of music production is creativity. Don't be afraid to experiment with different sounds and techniques. You can create music using anything, from household objects to your own voice. Be open-minded and willing to try new things.`,
+    },
 ];
 
 function setBlogLs(){
