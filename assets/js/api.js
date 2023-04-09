@@ -10,7 +10,7 @@
                      <p>${x.title} </p>`
     });
     document.getElementById("respuesta").innerHTML = salida;
-    });*/
+    });
 
 function api(){
     const options = {
@@ -29,6 +29,10 @@ function api(){
 }
 
 api()
+
+setTimeout(()=>{
+    alert("hola");
+}, 3000)*/
 
 
 
