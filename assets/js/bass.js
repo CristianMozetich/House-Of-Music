@@ -63,13 +63,13 @@ const bass = [
         name: "Stagg BC300-WS 4 String Fusion Electric Bass Guitar",
         price: 250,
         id: 59,
-        img: "/assets/img/Stagg BC300-WS 4 String Fusion Electric Bass Guitar - Walnut Stain.jpeg"
+        img: "../assets/img/Stagg BC300-WS 4 String Fusion Electric Bass Guitar - Walnut Stain.jpeg"
     },
     {
         name: "Boss GEB7 Bass Equalizer",
         price: 100,
         id: 60,
-        img: "/assets/img/Boss GEB7 Bass Equalizer.jpeg",
+        img: "../assets/img/Boss GEB7 Bass Equalizer.jpeg",
     },
 ];
 
