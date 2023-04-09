@@ -1,4 +1,4 @@
-fetch ("https://jsonplaceholder.typicode.com/albums")
+/*fetch ("https://jsonplaceholder.typicode.com/albums")
 .then((respuesta)=> respuesta.json())
 .then((data)=>{
     console.log(data)
@@ -10,7 +10,7 @@ fetch ("https://jsonplaceholder.typicode.com/albums")
                      <p>${x.title} </p>`
     });
     document.getElementById("respuesta").innerHTML = salida;
-    });
+    });*/
 
 
 

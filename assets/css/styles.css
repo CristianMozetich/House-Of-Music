@@ -19,6 +19,13 @@
   margin-top: 80px;
   overflow: hidden;
 }
+.container .blog_box {
+  margin: 5px;
+}
+.container .blog_box .card {
+  width: 500px;
+  border-radius: 10px;
+}
 .container .main_box {
   margin: 5px;
 }
@@ -58,8 +65,8 @@
 }
 .footer .wsp {
   position: fixed;
-  bottom: 100px;
-  right: 40px;
+  bottom: 60px;
+  right: 30px;
 }
 .footer .wsp .fa-brands {
   color: green;

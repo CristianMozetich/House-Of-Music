@@ -1,6 +1,13 @@
 .container{
     margin-top: 80px;
     overflow: hidden;
+    .blog_box{
+        margin: 5px;
+        .card{
+            width: 500px;
+            border-radius: 10px;
+        }
+    }
     .main_box{
         margin: 5px;
         .card{
