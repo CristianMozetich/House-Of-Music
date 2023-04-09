@@ -30,6 +30,7 @@
   margin: 5px;
 }
 .container .main_box .card {
+  padding: 0%;
   border-radius: 10px;
   width: 500px;
 }
