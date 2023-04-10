@@ -4,8 +4,8 @@ function renderModal (){
 
     blog.forEach((blog, index) => {
         let modalId = `exampleModal-${index}`;
-            salida  +=  `<div class="card text-center m-4">
-                            <img src=" ${blog.img} " class="card-img-top" alt="drums" >
+            salida  +=  `<div class="card text-center m-4 col-5">
+                            <img src=" ${blog.img} " class="card-img-top" alt="drums">
                             <div class="card-body">
                                 <h5 class="card-title"> ${blog.title} </h5>
                                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#${modalId}">
