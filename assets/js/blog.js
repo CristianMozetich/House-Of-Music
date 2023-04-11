@@ -15,7 +15,7 @@ const blog = [
         In conclusion, the impact of technology on music and musical instruments is undeniable. It's a force that has both liberated and complicated our musical landscape. But let's not be afraid of it, my friends. Let's harness it, let's use it to create music that's never been heard before. As Hunter S. Thompson once said, "Buy the ticket, take the ride."`,
     },
     {
-        img: "../assets/img/blogimg2.jpeg",
+        img: "../assets/img/blog2.webp",
         title: "How to Get Started with Music Production on a Budget",
         texto: `Music production is an art form that has been enjoyed by many people for centuries. In recent years, music production has become more accessible to anyone with a computer and a dream. However, the cost of entry into the world of music production can be high, with expensive software, hardware, and equipment being required. But fear not, because with a little research and some clever spending, you can get started with music production on a budget. Here are some tips on how to get started with music production on a budget.
         There are many music production software programs available on the market, ranging from free to thousands of dollars. When you're just starting out, it's best to choose a software program that fits your budget. There are many free or low-cost options available, such as Logic, GarageBand, and Ableton Lite. These programs offer a variety of features that will allow you to create music without breaking the bank. Once you've gained more experience and have a better understanding of your needs, you can upgrade to a more expensive software program.
