@@ -4,7 +4,7 @@ function renderModal (){
 
     blog.forEach((blog, index) => {
         let modalId = `exampleModal-${index}`;
-            salida  +=  `<div class="card text-center m-4 col-5">
+            salida  +=  `<div class="card text-center m-4 col-10 col-sm-8 col-md-5">
                             <img src=" ${blog.img} " class="card-img-top" alt="drums">
                             <div class="card-body">
                                 <h5 class="card-title"> ${blog.title} </h5>
