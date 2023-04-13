@@ -9,7 +9,7 @@ async function noticias (){
 
 		data.articles.forEach(item => {	
 			if ( i < totalNews){
-				salida += `	<div class="card text-center m-4 col-10 col-sm-8 col-md-5">
+				salida +=  `<div class="card text-center m-4 col-10 col-sm-8 col-md-5">
 								<img src="${item.urlToImage} " class="card-img-top" alt="...">
 								<div class="card-body">
 				  					<h5 class="card-title">${item.title} </h5>
