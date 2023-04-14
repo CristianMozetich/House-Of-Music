@@ -29,7 +29,7 @@ function cartPage(){
                             <td></td>
                             <td></td>
                             <td>€${totalCost()}</td>
-                            <td><button class="btn btn-danger" onclick="pay()">Pay</button></td>
+                            <td><button class="btn btn-success" onclick="pay()">Pay</button></td>
                         </tr>`
 } else{
     salida =    `<div class="alert alert-primary text-center" role="alert">
