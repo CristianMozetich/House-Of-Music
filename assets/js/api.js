@@ -1,5 +1,5 @@
 
-async function noticias (){
+/*async function noticias (){
 	let respuesta = await fetch ('https://newsapi.org/v2/everything?domains=wsj.com&apiKey=f2c224ac0dad46f398c692b59ec6aedb');
 	let data = await respuesta.json();
 	console.log(data);
@@ -24,7 +24,7 @@ async function noticias (){
 	document.getElementById("api").innerHTML = salida;
 }
 
-noticias();
+noticias();*/
 	
 
 

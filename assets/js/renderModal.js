@@ -1,8 +1,12 @@
-function renderModal (){
-    let blog = getBlogLs();
+async function renderModal (){
+    let respuesta = await fetch ("../assets/js/blogContent.json");
+    let data = await respuesta.json();
+    console.log(data);
+
+
     let salida = ""
 
-    blog.forEach((blog, index) => {
+    data.forEach((blog, index) => {
         let modalId = `exampleModal-${index}`;
             salida  +=  `<div class="card text-center m-4 col-10 col-sm-8 col-md-5">
                             <img src=" ${blog.img} " class="card-img-top" alt="drums">

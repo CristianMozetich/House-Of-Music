@@ -1,4 +1,4 @@
-const blog = [
+/*const blog = [
     {
         img: "../assets/img/blogimg1.jpeg",
         title: "The Impact of Technology on Music and Musical Instruments",
@@ -33,4 +33,4 @@ function getBlogLs(){
     return JSON.parse(localStorage.getItem("blog"));
 }
 
-setBlogLs();
+setBlogLs();*/
