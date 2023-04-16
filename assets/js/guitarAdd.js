@@ -24,6 +24,7 @@ function textAddGuitar(){
     Toastify({
         text: "Added Successfully",
         className: "info",
+        position: "center",
         style: {
           background: "linear-gradient(to right, #00b09b, #96c93d)",
         }
