@@ -11,6 +11,7 @@ function guitarAdd(id){
     localStorage.setItem ("cart", JSON.stringify(cart));
     renderCountCart();
     renderCart();
+    textAddGuitar();
 };
 
 function findGuitar(id){
@@ -18,3 +19,13 @@ function findGuitar(id){
 
     return guitars.find((element)=> element.id ===id)
 };
+
+function textAddGuitar(){
+    Toastify({
+        text: "Added Successfully",
+        className: "info",
+        style: {
+          background: "linear-gradient(to right, #00b09b, #96c93d)",
+        }
+      }).showToast();
+}
