@@ -3,11 +3,11 @@ function renderBass(){
     let salida = "";
 
     bass.forEach((bass) => {
-        salida += `<div class="card text-center m-3" style="width: 18rem;">
+        salida += `<div class="card text-center border-secondary m-3" style="width: 18rem;">
                         <img src="${bass.img}" class="card-img-top" alt="drums">
                         <div class="card-body">
                             <h5 class="card-title">${bass.name} </h5>
-                            <p class="card-text">€${bass.price}</p>
+                            <p class="card-text text-success">€${bass.price}</p>
                             <a class="btn btn-primary" onclick="bassAdd(${bass.id})">Add to cart</a>
                         </div>
                     </div>`
