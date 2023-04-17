@@ -7,7 +7,7 @@ function renderGuitars(){
                         <img src="${guitars.img}" class="card-img-top" alt="guitars">
                         <div class="card-body">
                             <h5 class="card-title p-2">${guitars.name}</h5>
-                            <h4 class="card-text text-secondary p-2">€ ${guitars.price}</h4>
+                            <h4 class="card-text text-dark p-2">€ ${guitars.price}</h4>
                             <a class="btn btn-primary" onclick="guitarAdd(${guitars.id})">Add to cart</a>
                         </div>
                     </div>`
