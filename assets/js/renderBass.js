@@ -7,7 +7,7 @@ function renderBass(){
                         <img src="${bass.img}" class="card-img-top" alt="drums">
                         <div class="card-body">
                             <h5 class="card-title">${bass.name} </h5>
-                            <h4 class="card-text text-primary p-2">€${bass.price}</h4>
+                            <h4 class="card-text text-secondary p-2">€${bass.price}</h4>
                             <a class="btn btn-primary" onclick="bassAdd(${bass.id})">Add to cart</a>
                         </div>
                     </div>`
