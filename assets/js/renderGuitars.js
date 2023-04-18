@@ -3,7 +3,7 @@ function renderGuitars(){
     let salida = "";
 
     guitars.forEach((guitars) => {
-        salida += ` <div class="card text-center border-secondary m-3 p-0" style="width: 18rem;">
+        salida += ` <div class="card text-center border-secondary m-3 p-2" style="width: 18rem;">
                         <img src="${guitars.img}" class="card-img-top" alt="guitars">
                         <div class="card-body">
                             <h5 class="card-title p-2">${guitars.name}</h5>
